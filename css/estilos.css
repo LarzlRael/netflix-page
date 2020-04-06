@@ -59,7 +59,10 @@ header nav a:hover, header nav a.active {
     background-size: cover;
     margin-bottom: 3.12em;
     display: flex;
-    align-items: end;
+    
+    /*  con esta forma pone en l aparte de abajo para los otros navegadores 
+    align-items: end; */
+    align-items: flex-end;
 }
 
 .pelicula-principal .container{
